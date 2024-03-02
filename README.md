@@ -9,4 +9,4 @@
 - [Individual Plugin 4](https://github.com/solstxce/KARE-Reconstructed-Models/blob/main/dev_ws/src/articubot_one/worlds/ambulance_move.cc)
 
 ## Demo Videos
-[![Watch the video]("")](https://github.com/solstxce/KARE-Reconstructed-Models/raw/main/fov-bus.mp4)
+https://github.com/solstxce/KARE-Reconstructed-Models/raw/main/fov-bus.mp4
