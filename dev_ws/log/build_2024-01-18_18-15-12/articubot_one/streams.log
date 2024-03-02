@@ -1,0 +1,231 @@
+[0.065s] Invoking command in '/home/amadeus/Downloads/dev_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/amadeus/Downloads/dev_ws/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/amadeus/Downloads/dev_ws/install/articubot_one
+[0.073s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.161s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.166s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.208s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.213s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.213s] -- Configured cppcheck include dirs: 
+[0.213s] -- Configured cppcheck exclude dirs and/or files: 
+[0.218s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.218s] -- Configured cpplint exclude dirs and/or files: 
+[0.218s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.219s] -- Added test 'lint_cmake' to check CMake code style
+[0.220s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.225s] -- Added test 'uncrustify' to check C / C++ code style
+[0.225s] -- Configured uncrustify additional arguments: 
+[0.226s] -- Added test 'xmllint' to check XML markup files
+[0.226s] -- Configuring done
+[0.227s] -- Generating done
+[0.228s] -- Build files have been written to: /home/amadeus/Downloads/dev_ws/build/articubot_one
+[0.230s] Invoked command in '/home/amadeus/Downloads/dev_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/amadeus/Downloads/dev_ws/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/amadeus/Downloads/dev_ws/install/articubot_one
+[0.231s] Invoking command in '/home/amadeus/Downloads/dev_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/amadeus/Downloads/dev_ws/build/articubot_one -- -j12 -l12
+[0.253s] Invoked command in '/home/amadeus/Downloads/dev_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/amadeus/Downloads/dev_ws/build/articubot_one -- -j12 -l12
+[0.272s] Invoking command in '/home/amadeus/Downloads/dev_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/amadeus/Downloads/dev_ws/build/articubot_one
+[0.276s] -- Install configuration: ""
+[0.276s] -- Execute custom install script
+[0.276s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/config/drive_bot.rviz
+[0.282s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/config/empty.yaml
+[0.286s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/config/new_bot.rviz
+[0.291s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/config/view_bot.rviz
+[0.296s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/description/camera.xacro
+[0.301s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/description/gazebo_control.xacro
+[0.307s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
+[0.312s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/description/lidar.xacro
+[0.319s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+[0.324s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/description/robot_core.xacro
+[0.330s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py
+[0.335s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[0.341s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/CMakeLists.txt
+[0.346s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/README.md
+[0.351s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/agriculture.world
+[0.356s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/ambulance_crash
+[0.361s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/ambulance_move.cc
+[0.366s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/azcar.world
+[0.371s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/barrels.world
+[0.377s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeCache.txt
+[0.382s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/3.28.1/CMakeCCompiler.cmake
+[0.387s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake
+[0.392s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_C.bin
+[0.398s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_CXX.bin
+[0.404s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/3.28.1/CMakeSystem.cmake
+[0.410s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.c
+[0.419s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/3.28.1/CompilerIdC/a.out
+[0.425s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/3.28.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+[0.430s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/3.28.1/CompilerIdCXX/a.out
+[0.435s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/CMakeConfigureLog.yaml
+[0.440s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/CMakeDirectoryInformation.cmake
+[0.445s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/Makefile.cmake
+[0.450s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/Makefile2
+[0.455s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/TargetDirectories.txt
+[0.460s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/ambulance_move.dir/DependInfo.cmake
+[0.466s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/ambulance_move.dir/ambulance_move.cc.o
+[0.473s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/ambulance_move.dir/ambulance_move.cc.o.d
+[0.479s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/ambulance_move.dir/build.make
+[0.483s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/ambulance_move.dir/cmake_clean.cmake
+[0.488s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/ambulance_move.dir/compiler_depend.internal
+[0.493s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/ambulance_move.dir/compiler_depend.make
+[0.498s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/ambulance_move.dir/compiler_depend.ts
+[0.503s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/ambulance_move.dir/depend.make
+[0.508s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/ambulance_move.dir/flags.make
+[0.514s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/ambulance_move.dir/link.txt
+[0.520s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/ambulance_move.dir/progress.make
+[0.525s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/cmake.check_cache
+[0.530s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/model_move.dir/DependInfo.cmake
+[0.535s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/model_move.dir/build.make
+[0.541s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/model_move.dir/cmake_clean.cmake
+[0.546s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/model_move.dir/compiler_depend.internal
+[0.551s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/model_move.dir/compiler_depend.make
+[0.556s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/model_move.dir/compiler_depend.ts
+[0.562s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/model_move.dir/depend.make
+[0.568s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/model_move.dir/flags.make
+[0.575s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/model_move.dir/link.txt
+[0.580s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/model_move.dir/model_move.cc.o
+[0.585s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/model_move.dir/model_move.cc.o.d
+[0.590s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/model_move.dir/progress.make
+[0.595s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/path_publisher.dir/DependInfo.cmake
+[0.600s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/path_publisher.dir/build.make
+[0.605s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/path_publisher.dir/cmake_clean.cmake
+[0.611s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/path_publisher.dir/compiler_depend.internal
+[0.619s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/path_publisher.dir/compiler_depend.make
+[0.624s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/path_publisher.dir/compiler_depend.ts
+[0.629s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/path_publisher.dir/depend.make
+[0.634s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/path_publisher.dir/flags.make
+[0.639s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/path_publisher.dir/link.txt
+[0.644s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/path_publisher.dir/path_publisher.cc.o
+[0.649s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/path_publisher.dir/path_publisher.cc.o.d
+[0.655s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/path_publisher.dir/progress.make
+[0.661s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/progress.marks
+[0.666s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/Makefile
+[0.672s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/ambulance_move
+[0.677s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/cmake_install.cmake
+[0.682s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/libmodel_move.so
+[0.688s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/path_publisher
+[0.693s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/canyonview_field.world
+[0.698s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/cars-and-pathway.world
+[0.703s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/city_osm_roundabout.world
+[0.708s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/city_osm_roundabout_combined.world
+[0.715s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/cuda-keyring_1.1-1_all.deb
+[0.722s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/cuda_12.3.2_545.23.08_linux.run
+[0.727s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/cyberzoo.world
+[0.734s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/cyberzoo2019_orange_poles.world
+[0.739s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/cyberzoo2019_orange_poles_panels.world
+[0.744s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/cyberzoo2019_orange_poles_panels_mats.world
+[0.748s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/cyberzoo2019_ralphthesis2020.world
+[0.754s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/cyberzoo_4_panels.world
+[0.759s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/cyberzoo_orange_poles.world
+[0.764s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/cyberzoo_panel.world
+[0.768s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/drone_race_track_2018_actual.world
+[0.773s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/drone_race_track_2018_actual_with_gatepapers.world
+[0.778s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/empty.world
+[0.783s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/empty_aerial_manipulation.world
+[0.788s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/fetchit_challenge_arena_montreal2019.world
+[0.793s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/fetchit_challenge_arena_montreal2019_highlights.world
+[0.798s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/fetchit_challenge_arena_montreal2019_onlylights.world
+[0.802s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/fetchit_challenge_assembly.world
+[0.807s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/fetchit_challenge_atrezzo.world
+[0.813s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/fetchit_challenge_simple.world
+[0.821s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/fetchit_challenge_simple_highlights.world
+[0.828s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/fetchit_challenge_tests.world
+[0.833s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/fetchit_challenge_tests_lowlights.world
+[0.838s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/hemicyl.world
+[0.843s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/house.world
+[0.848s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/inspection.world
+[0.853s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move.cc
+[0.857s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move.hh
+[0.862s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move.world
+[0.867s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/CMakeLists.txt
+[0.872s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/README.md
+[0.877s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeCache.txt
+[0.881s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/3.28.1/CMakeCCompiler.cmake
+[0.886s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake
+[0.891s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_C.bin
+[0.896s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_CXX.bin
+[0.901s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/3.28.1/CMakeSystem.cmake
+[0.905s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.c
+[0.911s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/3.28.1/CompilerIdC/a.out
+[0.918s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/3.28.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+[0.923s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/3.28.1/CompilerIdCXX/a.out
+[0.928s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/CMakeConfigureLog.yaml
+[0.933s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/CMakeDirectoryInformation.cmake
+[0.938s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/Makefile.cmake
+[0.943s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/Makefile2
+[0.947s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/TargetDirectories.txt
+[0.952s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/cmake.check_cache
+[0.957s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/model_move.dir/DependInfo.cmake
+[0.962s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/model_move.dir/build.make
+[0.967s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/model_move.dir/cmake_clean.cmake
+[0.972s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/model_move.dir/compiler_depend.internal
+[0.977s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/model_move.dir/compiler_depend.make
+[0.982s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/model_move.dir/compiler_depend.ts
+[0.987s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/model_move.dir/depend.make
+[0.991s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/model_move.dir/flags.make
+[0.997s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/model_move.dir/link.txt
+[1.001s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/model_move.dir/model_move.cc.o
+[1.007s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/model_move.dir/model_move.cc.o.d
+[1.013s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/model_move.dir/progress.make
+[1.019s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/path_publisher.dir/DependInfo.cmake
+[1.024s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/path_publisher.dir/build.make
+[1.029s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/path_publisher.dir/cmake_clean.cmake
+[1.034s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/path_publisher.dir/compiler_depend.internal
+[1.039s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/path_publisher.dir/compiler_depend.make
+[1.044s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/path_publisher.dir/compiler_depend.ts
+[1.049s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/path_publisher.dir/depend.make
+[1.053s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/path_publisher.dir/flags.make
+[1.058s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/path_publisher.dir/link.txt
+[1.063s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/path_publisher.dir/path_publisher.cc.o
+[1.068s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/path_publisher.dir/path_publisher.cc.o.d
+[1.073s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/path_publisher.dir/progress.make
+[1.078s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/progress.marks
+[1.083s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/Makefile
+[1.087s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/cmake_install.cmake
+[1.092s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/libmodel_move.so
+[1.097s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/path_publisher
+[1.102s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/model_move.cc
+[1.107s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/model_move.hh
+[1.113s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/model_move.world
+[1.119s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/model_move_with_movement.world
+[1.124s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/path_publisher.cc
+[1.129s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move_with_movement.world
+[1.134s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/neighborhood.world
+[1.138s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/obstacles.world
+[1.143s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/office_cpr.world
+[1.148s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/office_cpr_construction.world
+[1.153s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/office_earthquake.world
+[1.158s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/office_env_large.world
+[1.163s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/office_small.world
+[1.168s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/out.txt
+[1.173s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/outdoor.world
+[1.178s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/path_publisher.cc
+[1.183s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/powerplant.world
+[1.188s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/rubble.world
+[1.193s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/simple_env_1.world
+[1.198s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/simple_env_2.world
+[1.203s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/simple_env_3.world
+[1.208s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/skidpan.world
+[1.213s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/small_city.launch
+[1.220s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/small_city.world
+[1.228s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/terrain-world.world
+[1.232s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/test_city.world
+[1.237s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/test_zone.world
+[1.243s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/wall_aerial_manipulation.world
+[1.247s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/warehouse.world
+[1.252s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/waypoint.world
+[1.257s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/workshop_example.world
+[1.262s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/world_launcher.launch
+[1.267s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/yosemite.world
+[1.272s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[1.277s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[1.282s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[1.287s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[1.292s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/environment/path.sh
+[1.296s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/environment/path.dsv
+[1.301s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/local_setup.bash
+[1.306s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/local_setup.sh
+[1.312s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/local_setup.zsh
+[1.319s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/local_setup.dsv
+[1.324s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/package.dsv
+[1.329s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[1.334s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[1.339s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[1.344s] -- Symlinking: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/package.xml
+[1.350s] Invoked command in '/home/amadeus/Downloads/dev_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/amadeus/Downloads/dev_ws/build/articubot_one

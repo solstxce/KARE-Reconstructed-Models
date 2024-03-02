@@ -1,0 +1,29 @@
+running egg_info
+creating ../build/rospy2/rospy2.egg-info
+writing ../build/rospy2/rospy2.egg-info/PKG-INFO
+writing dependency_links to ../build/rospy2/rospy2.egg-info/dependency_links.txt
+writing top-level names to ../build/rospy2/rospy2.egg-info/top_level.txt
+writing manifest file '../build/rospy2/rospy2.egg-info/SOURCES.txt'
+reading manifest file '../build/rospy2/rospy2.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../build/rospy2/rospy2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/amadeus/Downloads/dev_ws/build/rospy2/build
+creating /home/amadeus/Downloads/dev_ws/build/rospy2/build/lib
+creating /home/amadeus/Downloads/dev_ws/build/rospy2/build/lib/rospy2
+copying src/rospy2/constants.py -> /home/amadeus/Downloads/dev_ws/build/rospy2/build/lib/rospy2
+copying src/rospy2/__init__.py -> /home/amadeus/Downloads/dev_ws/build/rospy2/build/lib/rospy2
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/amadeus/Downloads/dev_ws/install/rospy2/lib/python3.10/site-packages/rospy2
+copying /home/amadeus/Downloads/dev_ws/build/rospy2/build/lib/rospy2/constants.py -> /home/amadeus/Downloads/dev_ws/install/rospy2/lib/python3.10/site-packages/rospy2
+copying /home/amadeus/Downloads/dev_ws/build/rospy2/build/lib/rospy2/__init__.py -> /home/amadeus/Downloads/dev_ws/install/rospy2/lib/python3.10/site-packages/rospy2
+byte-compiling /home/amadeus/Downloads/dev_ws/install/rospy2/lib/python3.10/site-packages/rospy2/constants.py to constants.cpython-310.pyc
+byte-compiling /home/amadeus/Downloads/dev_ws/install/rospy2/lib/python3.10/site-packages/rospy2/__init__.py to __init__.cpython-310.pyc
+running install_egg_info
+Copying ../build/rospy2/rospy2.egg-info to /home/amadeus/Downloads/dev_ws/install/rospy2/lib/python3.10/site-packages/rospy2-1.0.3-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/amadeus/Downloads/dev_ws/build/rospy2/install.log'

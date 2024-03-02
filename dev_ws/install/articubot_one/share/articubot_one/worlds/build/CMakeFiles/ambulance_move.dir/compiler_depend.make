@@ -1,0 +1,1 @@
+/home/amadeus/Downloads/dev_ws/src/articubot_one/worlds/build/CMakeFiles/ambulance_move.dir/compiler_depend.make

@@ -1,0 +1,6 @@
+source;share/rospy2/hook/pythonpath.ps1
+source;share/rospy2/hook/pythonpath.dsv
+source;share/rospy2/hook/pythonpath.sh
+source;../../build/rospy2/share/rospy2/hook/pythonpath_develop.ps1
+source;../../build/rospy2/share/rospy2/hook/pythonpath_develop.dsv
+source;../../build/rospy2/share/rospy2/hook/pythonpath_develop.sh

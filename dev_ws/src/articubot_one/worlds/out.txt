@@ -1,0 +1,287 @@
+    1  sudo pacman-key --recv-key 3056513887B78AEB --keyserver keyserver.ubuntu.com
+    2  sudo su
+    3  exit
+    4  sudo systemctl enable NetworkManager
+    5  sudo pacman -S networkmanager
+    6  sudo systemctl enable NetworkManager
+    7  sudo systemctl start NetworkManager
+    8  nmtui
+    9  firefox
+   10  sudo pacman -S firefox
+   11  git
+   12  sudo pacman -S git
+   13  sudo pacman -S tk subversion perl-cgi
+   14  git clone https://aur.archlinux.org/yay.git
+   15  cd yay
+   16  makepkg -si
+   17  makepkg -si
+   18  sudo pacman -S firefox
+   19  firefox
+   20  yay -S cloudflare-warp-bin
+   21  sudo pacman -S hyprland-git
+   22  pacman -Sy git
+   23  git clone --depth 1 https://github.com/prasanthrangan/hyprdots ~/Hyprdots
+   24  cd ~/Hyprdots/Scripts
+   25  ./install.sh
+   26  ./install.sh
+   27  cd ~/Hyprdots/Scripts
+   28  git clone --depth 1 https://github.com/prasanthrangan/hyprdots ~/Hyprdots
+   29  git clone --depth 1 https://github.com/prasanthrangan/hyprdots ~/Hyprdots
+   30  git clone --depth 1 https://github.com/prasanthrangan/hyprdots ~/Hyprdots
+   31  git clone --depth 1 https://github.com/prasanthrangan/hyprdots ~/Hyprdots
+   32  cd ~/Hyprdots/Scripts
+   33  ./install.sh
+   34  sudo systemctl disable gdm
+   35  sudo systemctl disable sddm
+   36  sudo systemctl disable sddm
+   37  sudo systemctl elable sddm
+   38  sudo systemctl enable sddm
+   39  exit
+   40  warp-cli register
+   41  systemctl enable warpsvc
+   42  systemctl enable warp-svc
+   43  warp-cli register
+   44  systemctl start warp-svc
+   45  warp-cli register
+   46  warp-cli connect
+   47  warp-cli status
+   48  warp-cli status
+   49  warp-cli status
+   50  warp-cli status
+   51  warp-cli status
+   52  warp-cli status
+   53  warp-cli status
+   54  warp-cli status
+   55  warp-cli status
+   56  warp-cli disconnect
+   57  ls
+   58  warp-cli connect
+   59  warp-cli status
+   60  warp-cli status
+   61  warp-cli status
+   62  warp-cli status
+   63  warp-cli status
+   64  warp-cli status
+   65  warp-cli status
+   66  warp-cli status
+   67  warp-cli status
+   68  warp-cli status
+   69  warp-cli status
+   70  warp-cli status
+   71  warp-cli status
+   72  warp-cli status
+   73  warp-cli status
+   74  warp-cli status
+   75  warp-cli status
+   76  warp-cli status
+   77  warp-cli status
+   78  warp-cli status
+   79  warp-cli status
+   80  warp-cli status
+   81  warp-cli status
+   82  warp-cli status
+   83  warp-cli status
+   84  warp-cli status
+   85  warp-cli status
+   86  warp-cli status
+   87  warp-cli status
+   88  warp-cli status
+   89  warp-cli status
+   90  warp-cli status
+   91  warp-cli status
+   92  warp-cli status
+   93  warp-cli status
+   94  warp-cli status
+   95  warp-cli status
+   96  warp-cli status
+   97  warp-cli status
+   98  warp-cli status
+   99  warp-cli status
+  100  warp-cli status
+  101  warp-cli status
+  102  warp-cli status
+  103  warp-cli status
+  104  warp-cli status
+  105  warp-cli status
+  106  warp-cli status
+  107  warp-cli status
+  108  warp-cli status
+  109  warp-cli status
+  110  warp-cli status
+  111  warp-cli status
+  112  warp-cli status
+  113  warp-cli status
+  114  warp-cli status
+  115  warp-cli status
+  116  warp-cli status
+  117  warp-cli status
+  118  warp-cli status
+  119  warp-cli status
+  120  warp-cli status
+  121  warp-cli status
+  122  warp-cli help
+  123  warp-cli set-license 27t3kVe0-768K3rUb-Y74HBb91
+  124  warp-cli status
+  125  warp-cli status
+  126  warp-cli status
+  127  warp-cli account
+  128  warp-cli disconnect
+  129  warp-cli connect
+  130  warp-cli status
+  131  warp-cli status
+  132  warp-cli status
+  133  warp-cli status
+  134  warp-cli status
+  135  warp-cli status
+  136  warp-cli status
+  137  warp-cli status
+  138  warp-cli status
+  139  warp-cli status
+  140  warp-cli status
+  141  warp-cli status
+  142  warp-cli status
+  143  warp-cli status
+  144  warp-cli status
+  145  warp-cli status
+  146  warp-cli status
+  147  warp-cli status
+  148  warp-cli status
+  149  warp-cli status
+  150  warp-cli status
+  151  sudo pacman -S cloudflare-warp-bin
+  152   sudo systemctl restart warp-svc.service
+  153  systemctl --user enable --now warp-taskbar
+  154  warp-cli status
+  155  warp-cli status
+  156  warp-cli status
+  157  warp-cli status
+  158  warp-cli status
+  159  warp-cli status
+  160  warp-cli status
+  161  warp-cli status
+  162  warp-cli status
+  163  warp-cli status
+  164  warp-cli status
+  165  warp-cli status
+  166  warp-cli status
+  167  warp-cli status
+  168  warp-cli status
+  169  warp-cli status
+  170  warp-cli status
+  171  warp-cli status
+  172  warp-cli status
+  173  warp-cli status
+  174  warp-cli status
+  175  warp-cli disconnect
+  176  fish
+  177  exit
+  178  /usr/bin/hollywood 
+  179  source /etc/profile
+  180  emulator
+  181  cd ~/Hyprdots/Scripts
+  182  git pull
+  183  ./install.sh -r
+  184  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  185  sudo pacman -S zsh
+  186  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  187  /usr/bin/hollywood 
+  188  ls
+  189  apt update
+  190  sudo apt update
+  191  sudo apt install neofetch
+  192  sudo apt install neofetch
+  193  exit
+  194  ls
+  195  cd home
+  196  ls
+  197  cd ..
+  198  ls
+  199  cd root
+  200  ls
+  201  sudo add-apt-repository ppa:kisak/kisak-mesa && sudo apt update && apt upgrade
+  202  gazebo
+  203  ls
+  204  cd MCW
+  205  ls
+  206  cd Testing
+  207  ls
+  208  cd gazebo_models_worlds_collection/
+  209  ls
+  210  cd worlds
+  211  ls
+  212  gazebo powerplant.world 
+  213  rosrun gazebo powerplant.world 
+  214  rosrun
+  215  ls
+  216  cd ../..
+  217  ls
+  218  cd articubot_one/
+  219  ls
+  220  cd launch
+  221  ls
+  222  cd ..
+  223  cd ..
+  224  cd worlds
+  225  ls
+  226  cd articubot_one/
+  227  ls
+  228  cd worlds
+  229  ls
+  230  cd ..
+  231  cd ..
+  232  cd gazebo_models_worlds_collection/worlds/
+  233  ls
+  234  nano world_launcher.launch
+  235  apt install nano
+  236  nano world_launcher.launch
+  237  nano world_launcher.launch
+  238  roslaunch gazebo_ros empty_world.launch 
+  239  source /opt/ros/humble/setup.bash
+  240  roslaunch gazebo_ros empty_world.launch 
+  241  ls
+  242  find / -name roslaunch
+  243  apt install ros-humble-roslaunch
+  244  cd
+  245  cd ..
+  246  ls
+  247  ./ros_entrypoint.sh 
+  248  cat ros_entrypoint.sh 
+  249  ls
+  250  roslaunch
+  251  apt-get install -y ros-humble-desktop 
+  252  rosdep init &&   rosdep update --rosdistro humble
+  253  rosdep update --rosdistro humble
+  254  rosrun
+  255  ros2 launch gazebo_ros empty_world.launch 
+  256   apt install ros-humble-gazebo-ros-pkgs
+  257  ls
+  258  ros2 launch gazebo_ros empty_world.launch 
+  259  cd root
+  260  cd MCW/Testing/
+  261  ls
+  262  cd gazebo_models_worlds_collection/
+  263  ls
+  264  cd worlds
+  265  ls
+  266  ros2 launch gazebo_ros empty_world.launch 
+  267  ros2 launch gazebo_ros ./empty_world.launch 
+  268  tmux
+  269  apt install tmux
+  270  tmux
+  271  gazebo
+  272  lspci | grep -i nvidia
+  273  sudo apt install lspci
+  274  nala install  	pciutils
+  275  lspci | grep -i nvidia
+  276  uname -m && cat /etc/*release
+  277  wget https://developer.download.nvidia.com/compute/cuda/12.3.2/local_installers/cuda_12.3.2_545.23.08_linux.run
+  278  wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-keyring_1.1-1_all.deb
+  279  sudo dpkg -i cuda-keyring_1.1-1_all.deb
+  280  nala update
+  281  sudo apt-get -y install cuda-toolkit-12-3
+  282  nala -y install cuda-toolkit-12-3
+  283  nala install cuda-toolkit-12-3
+  284  nala install cuda-toolkit-12-3
+  285  nala install cuda-toolkit-12-3
+  286  history
+  287  history > out.txt

@@ -1,0 +1,7 @@
+/home/amadeus/Downloads/dev_ws/src/articubot_one/worlds/build/CMakeFiles/path_publisher.dir
+/home/amadeus/Downloads/dev_ws/src/articubot_one/worlds/build/CMakeFiles/ambulance_move.dir
+/home/amadeus/Downloads/dev_ws/src/articubot_one/worlds/build/CMakeFiles/move_car.dir
+/home/amadeus/Downloads/dev_ws/src/articubot_one/worlds/build/CMakeFiles/move_man.dir
+/home/amadeus/Downloads/dev_ws/src/articubot_one/worlds/build/CMakeFiles/model_move.dir
+/home/amadeus/Downloads/dev_ws/src/articubot_one/worlds/build/CMakeFiles/edit_cache.dir
+/home/amadeus/Downloads/dev_ws/src/articubot_one/worlds/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,31 @@
+[0.373s] Invoking command in '/home/amadeus/Downloads/dev_ws/rospy2': PYTHONPATH=/home/amadeus/Downloads/dev_ws/build/rospy2/prefix_override:/home/amadeus/Downloads/dev_ws/install/rospy2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/rospy2 build --build-base /home/amadeus/Downloads/dev_ws/build/rospy2/build install --record /home/amadeus/Downloads/dev_ws/build/rospy2/install.log --single-version-externally-managed
+[0.502s] running egg_info
+[0.503s] creating ../build/rospy2/rospy2.egg-info
+[0.503s] writing ../build/rospy2/rospy2.egg-info/PKG-INFO
+[0.503s] writing dependency_links to ../build/rospy2/rospy2.egg-info/dependency_links.txt
+[0.503s] writing top-level names to ../build/rospy2/rospy2.egg-info/top_level.txt
+[0.503s] writing manifest file '../build/rospy2/rospy2.egg-info/SOURCES.txt'
+[0.504s] reading manifest file '../build/rospy2/rospy2.egg-info/SOURCES.txt'
+[0.504s] adding license file 'LICENSE'
+[0.505s] writing manifest file '../build/rospy2/rospy2.egg-info/SOURCES.txt'
+[0.505s] running build
+[0.505s] running build_py
+[0.505s] creating /home/amadeus/Downloads/dev_ws/build/rospy2/build
+[0.505s] creating /home/amadeus/Downloads/dev_ws/build/rospy2/build/lib
+[0.505s] creating /home/amadeus/Downloads/dev_ws/build/rospy2/build/lib/rospy2
+[0.505s] copying src/rospy2/constants.py -> /home/amadeus/Downloads/dev_ws/build/rospy2/build/lib/rospy2
+[0.505s] copying src/rospy2/__init__.py -> /home/amadeus/Downloads/dev_ws/build/rospy2/build/lib/rospy2
+[0.505s] running install
+[0.505s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.505s]   warnings.warn(
+[0.505s] running install_lib
+[0.506s] creating /home/amadeus/Downloads/dev_ws/install/rospy2/lib/python3.10/site-packages/rospy2
+[0.506s] copying /home/amadeus/Downloads/dev_ws/build/rospy2/build/lib/rospy2/constants.py -> /home/amadeus/Downloads/dev_ws/install/rospy2/lib/python3.10/site-packages/rospy2
+[0.506s] copying /home/amadeus/Downloads/dev_ws/build/rospy2/build/lib/rospy2/__init__.py -> /home/amadeus/Downloads/dev_ws/install/rospy2/lib/python3.10/site-packages/rospy2
+[0.506s] byte-compiling /home/amadeus/Downloads/dev_ws/install/rospy2/lib/python3.10/site-packages/rospy2/constants.py to constants.cpython-310.pyc
+[0.506s] byte-compiling /home/amadeus/Downloads/dev_ws/install/rospy2/lib/python3.10/site-packages/rospy2/__init__.py to __init__.cpython-310.pyc
+[0.509s] running install_egg_info
+[0.510s] Copying ../build/rospy2/rospy2.egg-info to /home/amadeus/Downloads/dev_ws/install/rospy2/lib/python3.10/site-packages/rospy2-1.0.3-py3.10.egg-info
+[0.510s] running install_scripts
+[0.524s] writing list of installed files to '/home/amadeus/Downloads/dev_ws/build/rospy2/install.log'
+[0.541s] Invoked command in '/home/amadeus/Downloads/dev_ws/rospy2' returned '0': PYTHONPATH=/home/amadeus/Downloads/dev_ws/build/rospy2/prefix_override:/home/amadeus/Downloads/dev_ws/install/rospy2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/rospy2 build --build-base /home/amadeus/Downloads/dev_ws/build/rospy2/build install --record /home/amadeus/Downloads/dev_ws/build/rospy2/install.log --single-version-externally-managed

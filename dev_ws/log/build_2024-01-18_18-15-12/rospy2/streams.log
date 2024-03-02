@@ -1,0 +1,17 @@
+[0.393s] Invoking command in '/home/amadeus/Downloads/dev_ws/build/rospy2': PYTHONPATH=/home/amadeus/Downloads/dev_ws/build/rospy2/prefix_override:/home/amadeus/Downloads/dev_ws/install/rospy2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/amadeus/Downloads/dev_ws/build/rospy2/build --no-deps
+[0.531s] running develop
+[0.532s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.532s]   warnings.warn(
+[0.532s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.532s]   warnings.warn(
+[0.614s] running egg_info
+[0.615s] writing rospy2.egg-info/PKG-INFO
+[0.615s] writing dependency_links to rospy2.egg-info/dependency_links.txt
+[0.615s] writing top-level names to rospy2.egg-info/top_level.txt
+[0.616s] reading manifest file 'rospy2.egg-info/SOURCES.txt'
+[0.616s] writing manifest file 'rospy2.egg-info/SOURCES.txt'
+[0.617s] running build_ext
+[0.617s] Creating /home/amadeus/Downloads/dev_ws/install/rospy2/lib/python3.10/site-packages/rospy2.egg-link (link to .)
+[0.617s] 
+[0.618s] Installed /home/amadeus/Downloads/dev_ws/build/rospy2
+[0.637s] Invoked command in '/home/amadeus/Downloads/dev_ws/build/rospy2' returned '0': PYTHONPATH=/home/amadeus/Downloads/dev_ws/build/rospy2/prefix_override:/home/amadeus/Downloads/dev_ws/install/rospy2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/amadeus/Downloads/dev_ws/build/rospy2/build --no-deps

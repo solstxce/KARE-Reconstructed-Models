@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="car">
+    <static>true</static>
+    <link name="link">
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <scale>2 2 2</scale>
+            <rpy>0 0 0</rpy>
+            <uri>model://car/meshes/car.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <scale>2 2 2</scale>
+            <uri>model://car/meshes/car.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      
+    </link>
+      <selfCollide>1</selfCollide>
+      <pose>4.7846 0.076029 0.695143 1.56704 0.041396 1.48017</pose>
+      <!-- <pose>1e-06 2e-06 1e-06 1.52923 -0 0</pose> -->
+      <allow_auto_disable>0</allow_auto_disable>
+      <!-- <selfCollide>true</selfCollide> -->
+  </model>
+</sdf>

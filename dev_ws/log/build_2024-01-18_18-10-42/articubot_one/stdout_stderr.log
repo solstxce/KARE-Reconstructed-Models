@@ -1,0 +1,262 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/amadeus/Downloads/dev_ws/build/articubot_one
+-- Install configuration: ""
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/config
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/config/view_bot.rviz
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/config/empty.yaml
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/config/new_bot.rviz
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/config/drive_bot.rviz
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/description
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/description/robot_core.xacro
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/description/lidar.xacro
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/description/gazebo_control.xacro
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/description/camera.xacro
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/launch
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/drone_race_track_2018_actual.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/cuda_12.3.2_545.23.08_linux.run
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/fetchit_challenge_assembly.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/canyonview_field.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/skidpan.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/empty.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/cyberzoo_panel.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/workshop_example.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/out.txt
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/cars-and-pathway.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/house.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/small_city.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/outdoor.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/simple_env_2.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/cuda-keyring_1.1-1_all.deb
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/obstacles.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/agriculture.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/office_small.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/azcar.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/rubble.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/cyberzoo2019_orange_poles_panels.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/warehouse.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/test_city.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/cyberzoo.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/drone_race_track_2018_actual_with_gatepapers.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move_with_movement.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/empty_aerial_manipulation.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/fetchit_challenge_arena_montreal2019_onlylights.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/office_env_large.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/path_publisher.cc
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move.cc
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/model_move_with_movement.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/path_publisher.cc
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/model_move.cc
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/Makefile2
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/CMakeDirectoryInformation.cmake
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/3.28.1
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/3.28.1/CMakeSystem.cmake
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/3.28.1/CompilerIdC
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.c
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/3.28.1/CompilerIdC/tmp
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/3.28.1/CompilerIdC/a.out
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_CXX.bin
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/3.28.1/CompilerIdCXX
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/3.28.1/CompilerIdCXX/tmp
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/3.28.1/CompilerIdCXX/a.out
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/3.28.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/3.28.1/CMakeCCompiler.cmake
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_C.bin
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/model_move.dir
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/model_move.dir/link.txt
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/model_move.dir/compiler_depend.ts
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/model_move.dir/progress.make
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/model_move.dir/compiler_depend.internal
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/model_move.dir/DependInfo.cmake
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/model_move.dir/compiler_depend.make
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/model_move.dir/build.make
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/model_move.dir/flags.make
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/model_move.dir/model_move.cc.o
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/model_move.dir/cmake_clean.cmake
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/model_move.dir/model_move.cc.o.d
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/model_move.dir/depend.make
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/Makefile.cmake
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/pkgRedirects
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/path_publisher.dir
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/path_publisher.dir/link.txt
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/path_publisher.dir/compiler_depend.ts
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/path_publisher.dir/progress.make
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/path_publisher.dir/path_publisher.cc.o.d
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/path_publisher.dir/compiler_depend.internal
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/path_publisher.dir/DependInfo.cmake
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/path_publisher.dir/compiler_depend.make
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/path_publisher.dir/path_publisher.cc.o
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/path_publisher.dir/build.make
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/path_publisher.dir/flags.make
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/path_publisher.dir/cmake_clean.cmake
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/path_publisher.dir/depend.make
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/CMakeConfigureLog.yaml
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/TargetDirectories.txt
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/cmake.check_cache
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeFiles/progress.marks
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/libmodel_move.so
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/path_publisher
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/Makefile
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/cmake_install.cmake
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/build/CMakeCache.txt
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/model_move.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/CMakeLists.txt
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/model_move.hh
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move/README.md
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/world_launcher.launch
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/fetchit_challenge_arena_montreal2019.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/cyberzoo_orange_poles.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/Makefile2
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/CMakeDirectoryInformation.cmake
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/3.28.1
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/3.28.1/CMakeSystem.cmake
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/3.28.1/CompilerIdC
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.c
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/3.28.1/CompilerIdC/tmp
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/3.28.1/CompilerIdC/a.out
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_CXX.bin
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/3.28.1/CompilerIdCXX
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/3.28.1/CompilerIdCXX/tmp
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/3.28.1/CompilerIdCXX/a.out
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/3.28.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/3.28.1/CMakeCCompiler.cmake
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_C.bin
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/model_move.dir
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/model_move.dir/link.txt
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/model_move.dir/compiler_depend.ts
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/model_move.dir/progress.make
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/model_move.dir/compiler_depend.internal
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/model_move.dir/DependInfo.cmake
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/model_move.dir/compiler_depend.make
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/model_move.dir/build.make
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/model_move.dir/flags.make
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/model_move.dir/model_move.cc.o
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/model_move.dir/cmake_clean.cmake
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/model_move.dir/model_move.cc.o.d
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/model_move.dir/depend.make
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/Makefile.cmake
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/pkgRedirects
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/path_publisher.dir
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/path_publisher.dir/link.txt
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/path_publisher.dir/compiler_depend.ts
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/path_publisher.dir/progress.make
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/path_publisher.dir/path_publisher.cc.o.d
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/path_publisher.dir/compiler_depend.internal
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/path_publisher.dir/DependInfo.cmake
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/path_publisher.dir/compiler_depend.make
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/path_publisher.dir/path_publisher.cc.o
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/path_publisher.dir/build.make
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/path_publisher.dir/flags.make
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/path_publisher.dir/cmake_clean.cmake
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/path_publisher.dir/depend.make
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/CMakeConfigureLog.yaml
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/TargetDirectories.txt
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/ambulance_move.dir
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/ambulance_move.dir/link.txt
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/ambulance_move.dir/compiler_depend.ts
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/ambulance_move.dir/progress.make
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/ambulance_move.dir/compiler_depend.internal
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/ambulance_move.dir/ambulance_move.cc.o
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/ambulance_move.dir/DependInfo.cmake
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/ambulance_move.dir/compiler_depend.make
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/ambulance_move.dir/build.make
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/ambulance_move.dir/flags.make
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/ambulance_move.dir/ambulance_move.cc.o.d
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/ambulance_move.dir/cmake_clean.cmake
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/ambulance_move.dir/depend.make
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/cmake.check_cache
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeFiles/progress.marks
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/libmodel_move.so
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/path_publisher
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/Makefile
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/cmake_install.cmake
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/ambulance_move
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/build/CMakeCache.txt
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/inspection.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/test_zone.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/fetchit_challenge_arena_montreal2019_highlights.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/fetchit_challenge_atrezzo.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/fetchit_challenge_simple.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/office_cpr.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/CMakeLists.txt
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/wall_aerial_manipulation.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/fetchit_challenge_tests.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/city_osm_roundabout.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/cyberzoo_4_panels.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/simple_env_3.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/cyberzoo2019_orange_poles.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/powerplant.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/fetchit_challenge_tests_lowlights.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/model_move.hh
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/waypoint.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/city_osm_roundabout_combined.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/office_cpr_construction.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/simple_env_1.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/ambulance_move.cc
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/README.md
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/yosemite.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/fetchit_challenge_simple_highlights.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/neighborhood.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/cyberzoo2019_ralphthesis2020.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/cyberzoo2019_orange_poles_panels_mats.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/ambulance_crash
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/terrain-world.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/small_city.launch
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/office_earthquake.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/hemicyl.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/worlds/barrels.world
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/environment/path.sh
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/environment/path.dsv
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/local_setup.bash
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/local_setup.sh
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/local_setup.zsh
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/local_setup.dsv
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/package.dsv
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+-- Installing: /home/amadeus/Downloads/dev_ws/install/articubot_one/share/articubot_one/package.xml
