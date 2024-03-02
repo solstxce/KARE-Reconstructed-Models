@@ -1,0 +1,56 @@
+<?xml version='1.0'?>
+<sdf version='1.7'>
+  <model name='bus567'>
+    <model name='kare-bus4'>
+      <model name='kare-bus-2'>
+        <model name='kare-bus'>
+          <static>1</static>
+          <link name='link'>
+            <collision name='collision'>
+              <geometry>
+                <mesh>
+                  <scale>8 8 8</scale>
+                  <uri>/home/amadeus/model_editor_models/kare-bus/meshes/kare-bus.obj</uri>
+                </mesh>
+              </geometry>
+              <max_contacts>10</max_contacts>
+              <surface>
+                <contact>
+                  <ode/>
+                </contact>
+                <bounce/>
+                <friction>
+                  <torsional>
+                    <ode/>
+                  </torsional>
+                  <ode/>
+                </friction>
+              </surface>
+            </collision>
+            <visual name='visual'>
+              <geometry>
+                <mesh>
+                  <scale>8 8 8</scale>
+                  <uri>/home/amadeus/model_editor_models/kare-bus/meshes/kare-bus.obj</uri>
+                </mesh>
+              </geometry>
+            </visual>
+            <self_collide>0</self_collide>
+            <enable_wind>0</enable_wind>
+            <kinematic>0</kinematic>
+          </link>
+          <pose>-3.3e-05 -0 -5e-06 1.57109 0.060055 1.57564</pose>
+        </model>
+        <static>0</static>
+        <allow_auto_disable>1</allow_auto_disable>
+        <pose>4.1e-05 -4.9e-05 -0 0 -0 1.83082</pose>
+      </model>
+      <static>0</static>
+      <allow_auto_disable>1</allow_auto_disable>
+      <pose>-4.2e-05 -5e-05 -0.75608 0 -0 0</pose>
+    </model>
+    <static>0</static>
+    <allow_auto_disable>1</allow_auto_disable>
+    <plugin name='model_move' filename='/home/amadeus/Downloads/dev_ws/src/articubot_one/worlds/build/libmodel_move.so'/>
+  </model>
+</sdf>

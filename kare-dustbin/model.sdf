@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="kare-dustbin">
+    <static>true</static>
+    <link name="link">
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <scale>2 2 2</scale>
+            <uri>/home/amadeus/model_editor_models/kare-dustbin/meshes/kare-dustbin.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <scale>2 2 2</scale>
+            <uri>/home/amadeus/model_editor_models/kare-dustbin/meshes/kare-dustbin.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

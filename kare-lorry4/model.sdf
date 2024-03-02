@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<sdf version='1.7'>
+  <model name='kare-lorry4'>
+    <model name='kare-lorry3'>
+      <model name='kare-lorry2'>
+        <model name='kare-emptylorry'>
+          <static>1</static>
+          <link name='link'>
+            <collision name='collision'>
+              <geometry>
+                <mesh>
+                  <scale>5 5 5</scale>
+                  <uri>/home/amadeus/model_editor_models/kare-emptylorry/meshes/kare-emptylorry.obj</uri>
+                </mesh>
+              </geometry>
+            </collision>
+            <visual name='visual'>
+              <geometry>
+                <mesh>
+                  <scale>5 5 5</scale>
+                  <uri>/home/amadeus/model_editor_models/kare-emptylorry/meshes/kare-emptylorry.obj</uri>
+                </mesh>
+              </geometry>
+            </visual>
+          </link>
+          <pose>-2.6e-05 -2.7e-05 -2e-06 1.55178 -0.050932 -1.58567</pose>
+        </model>
+        <static>0</static>
+        <allow_auto_disable>1</allow_auto_disable>
+        <pose>1e-06 -0 2e-06 0 -0 0</pose>
+      </model>
+      <static>1</static>
+      <allow_auto_disable>0</allow_auto_disable>
+      <pose>3.8e-05 0 -1e-06 0 -0 0</pose>
+    </model>
+    <static>0</static>
+    <allow_auto_disable>1</allow_auto_disable>
+  </model>
+</sdf>

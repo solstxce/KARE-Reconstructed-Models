@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="kare-man">
+    <static>true</static>
+    <link name="link">
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <scale>2 2 2</scale>
+            <uri>model://kare-man/meshes/kare-man.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <scale>2 2 2</scale>
+            <uri>model://kare-man/meshes/kare-man.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <plugin name='man_slide' filename='/home/amadeus/Downloads/dev_ws/src/articubot_one/worlds/build/libmodel_move.so'/>
+  </model>
+</sdf>

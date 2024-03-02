@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="kare-whitecar">
+    <static>true</static>
+    <link name='roof_link'>
+        <pose>0 0 3.0 0 -0 0</pose>
+        <self_collide>1</self_collide>
+        <enable_wind>1</enable_wind>
+      <kinematic>1</kinematic>
+    </link>
+    <link name="link">
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <scale>5 5 5</scale>
+            <uri>/home/amadeus/model_editor_models/kare-whitecar/meshes/kare-whitecar.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <scale>5 5 5</scale>
+            <uri>/home/amadeus/model_editor_models/kare-whitecar/meshes/kare-whitecar.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

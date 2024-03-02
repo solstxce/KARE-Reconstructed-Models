@@ -1,0 +1,48 @@
+<?xml version='1.0'?>
+<sdf version='1.7'>
+  <model name='my_bot_bat'>
+    <model name='kare-whitecar'>
+      <static>1</static>
+      <link name='roof_link'>
+        <pose>0 0 1.5 0 -0 0</pose>
+        <self_collide>1</self_collide>
+        <enable_wind>1</enable_wind>
+        <kinematic>1</kinematic>
+      </link>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <scale>5 5 5</scale>
+              <uri>/home/amadeus/model_editor_models/kare-whitecar/meshes/kare-whitecar.obj</uri>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <scale>5 5 5</scale>
+              <uri>/home/amadeus/model_editor_models/kare-whitecar/meshes/kare-whitecar.obj</uri>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+      <pose>-5.20216 0.961715 1.06554 1.40317 -0.021834 1.44097</pose>
+    </model>
+    <static>0</static>
+    <allow_auto_disable>1</allow_auto_disable>
+    <plugin name='diff_drive' filename='libgazebo_ros_diff_drive.so'>
+      <left_joint>left_wheel_joint</left_joint>
+      <right_joint>right_wheel_joint</right_joint>
+      <wheel_separation>0.35</wheel_separation>
+      <wheel_diameter>0.1</wheel_diameter>
+      <max_wheel_torque>200</max_wheel_torque>
+      <max_wheel_acceleration>50.0</max_wheel_acceleration>
+      <odometry_frame>odom</odometry_frame>
+      <robot_base_frame>base_link</robot_base_frame>
+      <publish_odom>1</publish_odom>
+      <publish_odom_tf>1</publish_odom_tf>
+      <publish_wheel_tf>1</publish_wheel_tf>
+    </plugin>
+  </model>
+</sdf>

@@ -1,0 +1,48 @@
+<?xml version='1.0'?>
+<sdf version='1.7'>
+  <model name='klu_car'>
+    <model name='car'>
+      <static>1</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <scale>2 2 2</scale>
+              <uri>model://car/meshes/car.obj</uri>
+              <rpy>0 0 0</rpy>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <scale>2 2 2</scale>
+              <uri>model://car/meshes/car.obj</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-1e-05 4e-06 0 1.5658 0.041265 1.45016</pose>
+      <allow_auto_disable>0</allow_auto_disable>
+      <selfCollide>1</selfCollide>
+    </model>
+    <static>0</static>
+    <allow_auto_disable>1</allow_auto_disable>
+  </model>
+</sdf>

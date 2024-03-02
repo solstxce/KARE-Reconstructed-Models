@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<sdf version='1.7'>
+  <model name='kare-containeer'>
+    <model name='kare-drum'>
+      <static>1</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <scale>2 2 2</scale>
+              <uri>model://kare-drum/meshes/kare-drum.obj</uri>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <scale>2 2 2</scale>
+              <uri>model://kare-drum/meshes/kare-drum.obj</uri>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+      <pose>4.9e-05 -4e-05 -1e-06 1.4473 -0 0</pose>
+    </model>
+    <static>0</static>
+    <allow_auto_disable>1</allow_auto_disable>
+  </model>
+</sdf>
